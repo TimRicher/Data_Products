@@ -36,6 +36,8 @@ tags$p("v/s   - V/S"),
 tags$p("am    - Transmission (0=Automatic, 1=Manual)"),
 tags$p("gear  - Number of Gears"),
 tags$p("carb  - Number of Carburators")
+tags$p(""),
+tags$p("Click on the Residual Plots tab to interact with the linear model residual plots")
 )
 ),
       tabPanel("Residual Plots", plotOutput("plot"))
