@@ -31,9 +31,4 @@ shinyServer(function(input, output) {
     plot(fit())
   })
   
-  # Generate a summary of the regression
-  #output$readme <- renderPrint({
-  #  readme_text(mtcars, "text")
-  #})
-  
 })
